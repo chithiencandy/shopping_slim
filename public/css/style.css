@@ -1,0 +1,852 @@
+body {
+    margin: 50px 0 0 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #aaa;
+    font-size: 18px;
+}
+
+h1 {
+    color: #719e40;
+    letter-spacing: -3px;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.panel-Smile {
+  border: 1px solid! important;   
+  border-color: #ff4da3!important;
+}
+.panel-Smile > .panel-heading {
+  color: #fff;
+  background-color: #e6006f;
+  border-color: #ff4da3;
+}
+.panel-Smile > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ff4da3;
+}
+.panel-Smile > .panel-heading .badge {
+  color: #e6006f;
+  background-color: #fff;
+}
+.panel-Smile > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ff4da3;
+}
+.panel-Smile > .panel-heading a {
+  color: #fff!important;
+}
+.panel-Smile > .panel-heading a:hover {
+  color: #ff80bd !important;
+  text-decoration: none;
+}
+.panel-Smile > .panel-heading .avatar_wrapper {
+  border-color: #e6006f !important;
+}
+.panel-Smile > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-Smile > .panel-body a {
+  color: #e6006f !important;
+}
+.panel-Smile > .panel-body a:hover,
+.panel-Smile > .panel-body a:focus {
+  color: #80003e !important;
+}
+.panel-Smile > .panel-footer {
+  color: #cd0063;
+  background-color: #ffb3d8;
+  border-top-color: #ff4da3;
+}
+.panel-Smile > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-Smile > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #e6006f solid;
+  margin-bottom: 5px;
+}
+.panel-Smile > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-Smile > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #e6006f;
+  color: #ffb3d8;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-Smile > .panel-footer .ownedcardonbottom:hover {
+  background-color: #ffcde5;
+  color: #e6006f;
+}
+.panel-Smile .socialbar a.btn {
+  color: #333!important;
+}
+.panel-Smile a.btn.btn-Smile,
+.panel-Smile a.btn.btn-Cool,
+.panel-Smile a.btn.btn-Cool,
+.panel-Smile a.btn.btn-default,
+.panel-Smile a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-Smile .table-link:hover {
+  color: #e6006f;
+  cursor: pointer;
+}
+.panel-Smile a {
+  color: #e6006f;
+}
+.panel-Smile a:hover,
+.panel-Smile a:focus {
+  color: #80003e;
+}
+.panel-Smile a {
+  color: #ff1a89;
+}
+.panel-Smile a:hover,
+.panel-Smile a:focus {
+  color: #b30056;}
+
+.panel-Pure {
+  border-color: #52df86!important;
+}
+.panel-Pure > .panel-heading {
+  color: #fff;
+  background-color: #20ab53;
+  border-color: #52df86;
+}
+.panel-Pure > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #52df86;
+}
+.panel-Pure > .panel-heading .badge {
+  color: #20ab53;
+  background-color: #fff;
+}
+.panel-Pure > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #52df86;
+}
+.panel-Pure > .panel-heading a {
+  color: #fff!important;
+}
+.panel-Pure > .panel-heading a:hover {
+  color: #7de7a4 !important;
+  text-decoration: none;
+}
+.panel-Pure > .panel-heading .avatar_wrapper {
+  border-color: #20ab53 !important;
+}
+.panel-Pure > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-Pure > .panel-body a {
+  color: #20ab53 !important;
+}
+.panel-Pure > .panel-body a:hover,
+.panel-Pure > .panel-body a:focus {
+  color: #105529 !important;
+}
+.panel-Pure > .panel-footer {
+  color: #1c9649;
+  background-color: #a8efc2;
+  border-top-color: #52df86;
+}
+.panel-Pure > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-Pure > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #20ab53 solid;
+  margin-bottom: 5px;
+}
+.panel-Pure > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-Pure > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #20ab53;
+  color: #a8efc2;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-Pure > .panel-footer .ownedcardonbottom:hover {
+  background-color: #bef3d1;
+  color: #20ab53;
+}
+.panel-Pure .socialbar a.btn {
+  color: #333!important;
+}
+.panel-Pure a.btn.btn-Smile,
+.panel-Pure a.btn.btn-Cool,
+.panel-Pure a.btn.btn-Cool,
+.panel-Pure a.btn.btn-default,
+.panel-Pure a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-Pure .table-link:hover {
+  color: #20ab53;
+  cursor: pointer;
+}
+.panel-Pure a {
+  color: #20ab53;
+}
+.panel-Pure a:hover,
+.panel-Pure a:focus {
+  color: #105529;
+}
+.panel-Pure a {
+  color: #28d668;
+}
+.panel-Pure a:hover,
+.panel-Pure a:focus {
+  color: #18803e;
+}
+.panel-Cool {
+  border-color: #52c2ff!important;
+}
+.panel-Cool > .panel-heading {
+  color: #fff;
+  background-color: #0098eb;
+  border-color: #52c2ff;
+}
+.panel-Cool > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #52c2ff;
+}
+.panel-Cool > .panel-heading .badge {
+  color: #0098eb;
+  background-color: #fff;
+}
+.panel-Cool > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #52c2ff;
+}
+.panel-Cool > .panel-heading a {
+  color: #fff!important;
+}
+.panel-Cool > .panel-heading a:hover {
+  color: #85d4ff !important;
+  text-decoration: none;
+}
+.panel-Cool > .panel-heading .avatar_wrapper {
+  border-color: #0098eb !important;
+}
+.panel-Cool > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-Cool > .panel-body a {
+  color: #0098eb !important;
+}
+.panel-Cool > .panel-body a:hover,
+.panel-Cool > .panel-body a:focus {
+  color: #005685 !important;
+}
+.panel-Cool > .panel-footer {
+  color: #0088d2;
+  background-color: #b8e6ff;
+  border-top-color: #52c2ff;
+}
+.panel-Cool > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-Cool > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #0098eb solid;
+  margin-bottom: 5px;
+}
+.panel-Cool > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-Cool > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #0098eb;
+  color: #b8e6ff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-Cool > .panel-footer .ownedcardonbottom:hover {
+  background-color: #d2efff;
+  color: #0098eb;
+}
+.panel-Cool .socialbar a.btn {
+  color: #333!important;
+}
+.panel-Cool a.btn.btn-Smile,
+.panel-Cool a.btn.btn-Cool,
+.panel-Cool a.btn.btn-Cool,
+.panel-Cool a.btn.btn-default,
+.panel-Cool a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-Cool .table-link:hover {
+  color: #0098eb;
+  cursor: pointer;
+}
+.panel-Cool a {
+  color: #0098eb;
+}
+.panel-Cool a:hover,
+.panel-Cool a:focus {
+  color: #005685;
+}
+.panel-Cool a {
+  color: #1fb0ff;
+}
+.panel-Cool a:hover,
+.panel-Cool a:focus {
+  color: #0077b8;
+}
+.panel-All {
+  border-color: #c3a4e4;
+}
+.panel-All > .panel-heading {
+  color: #fff;
+  background-color: #8f56cc;
+  border-color: #c3a4e4;
+}
+.panel-All > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #c3a4e4;
+}
+.panel-All > .panel-heading .badge {
+  color: #8f56cc;
+  background-color: #fff;
+}
+.panel-All > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #c3a4e4;
+}
+.panel-All > .panel-heading a {
+  color: #fff!important;
+}
+.panel-All > .panel-heading a:hover {
+  color: #ddccef !important;
+  text-decoration: none;
+}
+.panel-All > .panel-heading .avatar_wrapper {
+  border-color: #8f56cc !important;
+}
+.panel-All > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-All > .panel-body a {
+  color: #8f56cc !important;
+}
+.panel-All > .panel-body a:hover,
+.panel-All > .panel-body a:focus {
+  color: #5c2c90 !important;
+}
+.panel-All > .panel-footer {
+  color: #8242c6;
+  background-color: #f7f3fb;
+  border-top-color: #c3a4e4;
+}
+.panel-All > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-All > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #8f56cc solid;
+  margin-bottom: 5px;
+}
+.panel-All > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-All > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #8f56cc;
+  color: #f7f3fb;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-All > .panel-footer .ownedcardonbottom:hover {
+  background-color: #ffffff;
+  color: #8f56cc;
+}
+.panel-All .socialbar a.btn {
+  color: #333!important;
+}
+.panel-All a.btn.btn-Smile,
+.panel-All a.btn.btn-Cool,
+.panel-All a.btn.btn-Cool,
+.panel-All a.btn.btn-default,
+.panel-All a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-All .table-link:hover {
+  color: #8f56cc;
+  cursor: pointer;
+}
+.panel-All a {
+  color: #8f56cc;
+}
+.panel-All a:hover,
+.panel-All a:focus {
+  color: #5c2c90;
+}
+.panel-All a {
+  color: #a97dd8;
+}
+.panel-All a:hover,
+.panel-All a:focus {
+  color: #7537b8;
+}
+.panel-Smile-light {
+  border-color: #ffb3d8;
+}
+.panel-Smile-light > .panel-heading {
+  color: #fff;
+  background-color: #ff4da3;
+  border-color: #ffb3d8;
+}
+.panel-Smile-light > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ffb3d8;
+}
+.panel-Smile-light > .panel-heading .badge {
+  color: #ff4da3;
+  background-color: #fff;
+}
+.panel-Smile-light > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ffb3d8;
+}
+.panel-Smile-light > .panel-heading a {
+  color: #fff!important;
+}
+.panel-Smile-light > .panel-heading a:hover {
+  color: #ffe6f2 !important;
+  text-decoration: none;
+}
+.panel-Smile-light > .panel-heading .avatar_wrapper {
+  border-color: #ff4da3 !important;
+}
+.panel-Smile-light > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-Smile-light > .panel-body a {
+  color: #ff4da3 !important;
+}
+.panel-Smile-light > .panel-body a:hover,
+.panel-Smile-light > .panel-body a:focus {
+  color: #e6006f !important;
+}
+.panel-Smile-light > .panel-footer {
+  color: #ff3396;
+  background-color: #ffffff;
+  border-top-color: #ffb3d8;
+}
+.panel-Smile-light > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-Smile-light > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #ff4da3 solid;
+  margin-bottom: 5px;
+}
+.panel-Smile-light > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-Smile-light > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #ff4da3;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-Smile-light > .panel-footer .ownedcardonbottom:hover {
+  background-color: #ffffff;
+  color: #ff4da3;
+}
+.panel-Smile-light .socialbar a.btn {
+  color: #333!important;
+}
+.panel-Smile-light a.btn.btn-Smile,
+.panel-Smile-light a.btn.btn-Cool,
+.panel-Smile-light a.btn.btn-Cool,
+.panel-Smile-light a.btn.btn-default,
+.panel-Smile-light a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-Smile-light .table-link:hover {
+  color: #ff4da3;
+  cursor: pointer;
+}
+.panel-Smile-light a {
+  color: #ff4da3;
+}
+.panel-Smile-light a:hover,
+.panel-Smile-light a:focus {
+  color: #e6006f;
+}
+.panel-Smile-light a {
+  color: #ff1a89;
+}
+.panel-Smile-light a:hover,
+.panel-Smile-light a:focus {
+  color: #b30056;
+}
+.panel-Pure-light {
+  border-color: #a8efc2;
+}
+.panel-Pure-light > .panel-heading {
+  color: #fff;
+  background-color: #52df86;
+  border-color: #a8efc2;
+}
+.panel-Pure-light > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #a8efc2;
+}
+.panel-Pure-light > .panel-heading .badge {
+  color: #52df86;
+  background-color: #fff;
+}
+.panel-Pure-light > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #a8efc2;
+}
+.panel-Pure-light > .panel-heading a {
+  color: #fff!important;
+}
+.panel-Pure-light > .panel-heading a:hover {
+  color: #d3f7e0 !important;
+  text-decoration: none;
+}
+.panel-Pure-light > .panel-heading .avatar_wrapper {
+  border-color: #52df86 !important;
+}
+.panel-Pure-light > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-Pure-light > .panel-body a {
+  color: #52df86 !important;
+}
+.panel-Pure-light > .panel-body a:hover,
+.panel-Pure-light > .panel-body a:focus {
+  color: #20ab53 !important;
+}
+.panel-Pure-light > .panel-footer {
+  color: #3ddb77;
+  background-color: #fefffe;
+  border-top-color: #a8efc2;
+}
+.panel-Pure-light > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-Pure-light > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #52df86 solid;
+  margin-bottom: 5px;
+}
+.panel-Pure-light > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-Pure-light > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #52df86;
+  color: #fefffe;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-Pure-light > .panel-footer .ownedcardonbottom:hover {
+  background-color: #ffffff;
+  color: #52df86;
+}
+.panel-Pure-light .socialbar a.btn {
+  color: #333!important;
+}
+.panel-Pure-light a.btn.btn-Smile,
+.panel-Pure-light a.btn.btn-Cool,
+.panel-Pure-light a.btn.btn-Cool,
+.panel-Pure-light a.btn.btn-default,
+.panel-Pure-light a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-Pure-light .table-link:hover {
+  color: #52df86;
+  cursor: pointer;
+}
+.panel-Pure-light a {
+  color: #52df86;
+}
+.panel-Pure-light a:hover,
+.panel-Pure-light a:focus {
+  color: #20ab53;
+}
+.panel-Pure-light a {
+  color: #28d668;
+}
+.panel-Pure-light a:hover,
+.panel-Pure-light a:focus {
+  color: #18803e;
+}
+.panel-Cool-light {
+  border-color: #b8e6ff;
+}
+.panel-Cool-light > .panel-heading {
+  color: #fff;
+  background-color: #52c2ff;
+  border-color: #b8e6ff;
+}
+.panel-Cool-light > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #b8e6ff;
+}
+.panel-Cool-light > .panel-heading .badge {
+  color: #52c2ff;
+  background-color: #fff;
+}
+.panel-Cool-light > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #b8e6ff;
+}
+.panel-Cool-light > .panel-heading a {
+  color: #fff!important;
+}
+.panel-Cool-light > .panel-heading a:hover {
+  color: #ebf8ff !important;
+  text-decoration: none;
+}
+.panel-Cool-light > .panel-heading .avatar_wrapper {
+  border-color: #52c2ff !important;
+}
+.panel-Cool-light > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-Cool-light > .panel-body a {
+  color: #52c2ff !important;
+}
+.panel-Cool-light > .panel-body a:hover,
+.panel-Cool-light > .panel-body a:focus {
+  color: #0098eb !important;
+}
+.panel-Cool-light > .panel-footer {
+  color: #38b9ff;
+  background-color: #ffffff;
+  border-top-color: #b8e6ff;
+}
+.panel-Cool-light > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-Cool-light > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #52c2ff solid;
+  margin-bottom: 5px;
+}
+.panel-Cool-light > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-Cool-light > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #52c2ff;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-Cool-light > .panel-footer .ownedcardonbottom:hover {
+  background-color: #ffffff;
+  color: #52c2ff;
+}
+.panel-Cool-light .socialbar a.btn {
+  color: #333!important;
+}
+.panel-Cool-light a.btn.btn-Smile,
+.panel-Cool-light a.btn.btn-Cool,
+.panel-Cool-light a.btn.btn-Cool,
+.panel-Cool-light a.btn.btn-default,
+.panel-Cool-light a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-Cool-light .table-link:hover {
+  color: #52c2ff;
+  cursor: pointer;
+}
+.panel-Cool-light a {
+  color: #52c2ff;
+}
+.panel-Cool-light a:hover,
+.panel-Cool-light a:focus {
+  color: #0098eb;
+}
+.panel-Cool-light a {
+  color: #1fb0ff;
+}
+.panel-Cool-light a:hover,
+.panel-Cool-light a:focus {
+  color: #0077b8;
+}
+.panel-All-light {
+  border-color: #f7f3fb;
+}
+.panel-All-light > .panel-heading {
+  color: #fff;
+  background-color: #c3a4e4;
+  border-color: #f7f3fb;
+}
+.panel-All-light > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #f7f3fb;
+}
+.panel-All-light > .panel-heading .badge {
+  color: #c3a4e4;
+  background-color: #fff;
+}
+.panel-All-light > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #f7f3fb;
+}
+.panel-All-light > .panel-heading a {
+  color: #fff!important;
+}
+.panel-All-light > .panel-heading a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.panel-All-light > .panel-heading .avatar_wrapper {
+  border-color: #c3a4e4 !important;
+}
+.panel-All-light > .panel-body {
+  background: #fff;
+  overflow: hidden;
+  color: #333;
+}
+.panel-All-light > .panel-body a {
+  color: #c3a4e4 !important;
+}
+.panel-All-light > .panel-body a:hover,
+.panel-All-light > .panel-body a:focus {
+  color: #8f56cc !important;
+}
+.panel-All-light > .panel-footer {
+  color: #b691de;
+  background-color: #ffffff;
+  border-top-color: #f7f3fb;
+}
+.panel-All-light > .panel-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.panel-All-light > .panel-footer .ownedcardonbottom {
+  display: inline-block;
+  padding: 0 2px 0 8px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px #c3a4e4 solid;
+  margin-bottom: 5px;
+}
+.panel-All-light > .panel-footer .ownedcardonbottom [class*=flaticon] {
+  display: inline-block;
+  margin-left: -8px;
+}
+.panel-All-light > .panel-footer .ownedcardonbottom .language {
+  display: inline-block;
+  background-color: #c3a4e4;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: -18px;
+  padding: 0 12px;
+}
+.panel-All-light > .panel-footer .ownedcardonbottom:hover {
+  background-color: #ffffff;
+  color: #c3a4e4;
+}
+.panel-All-light .socialbar a.btn {
+  color: #333!important;
+}
+.panel-All-light a.btn.btn-Smile,
+.panel-All-light a.btn.btn-Cool,
+.panel-All-light a.btn.btn-Cool,
+.panel-All-light a.btn.btn-default,
+.panel-All-light a.btn.btn-All {
+  color: #fff !important;
+}
+.panel-All-light .table-link:hover {
+  color: #c3a4e4;
+  cursor: pointer;
+}
+.panel-All-light a {
+  color: #c3a4e4;
+}
+.panel-All-light a:hover,
+.panel-All-light a:focus {
+  color: #8f56cc;
+}
+.panel-All-light a {
+  color: #a97dd8;
+}
+.panel-All-light a:hover,
+.panel-All-light a:focus {
+  color: #7537b8;
+}

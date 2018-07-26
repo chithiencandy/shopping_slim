@@ -1,0 +1,12 @@
+https://schoolido.lu/api/cards/499/
+https://github.com/MagiCircles/SchoolIdolAPI/wiki/API-Cards
+http://freeonlinetools24.com/json-decode
+
+
+
+https://minimamente.com/example/magic_animations/
+
+"C:\Program Files (x86)\Internet Download Manager\idman.exe" /q /n /s /d  "https://i.schoolido.lu/c/94Eli.png" /p "C:\cards\a_94Eli.png"
+"C:\Program Files (x86)\Internet Download Manager\idman.exe" /q /n /s /d  "https://i.schoolido.lu/c/94idolizedEli.png" /p "C:\cards"
+
+https://i.schoolido.lu/c/94idolizedEli.png

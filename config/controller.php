@@ -1,0 +1,8 @@
+<?php
+
+$controllers = [
+    'HomeController',
+    'InfoController'
+];
+        
+
