@@ -1,0 +1,161 @@
+<html>
+
+    {% include 'header.twig' %}
+    <style>
+
+        ul {
+            position: absolute;
+            height: 400px;
+            top:40px;
+            left: 0; 
+            right: 0; 
+            margin-left: auto; 
+            margin-right: auto; 
+            width: 1600px;
+        }
+        ul li {
+            display:inline-block!important;
+            padding: 10px;
+            width: 250px!important;
+        }
+        li>div{
+            width: 250px!important;
+        }
+    </style>
+    <body>
+        {{ abc }}
+        <div class="facet-container">
+            <div class="left">
+
+                <ul id="allFacets" class="facet-list">
+                    <li class="facet">  
+
+                        <div id='card499' class='panel panel-Pure' style='display:none;'>
+                            <div class='panel-body'>
+                                <a>
+                                    <img src="{{ base_url() }}/public/images/499.png" alt="Example" width='100%' />
+                                </a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="facet">  
+                        <div id='card500' class='panel panel-Smile' style='display:none;'>
+                            <div class='panel-body'>
+                                <a>
+                                    <img src="{{ base_url() }}/public/images/512.png" alt="Example" width='100%' />
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="facet">  
+                        <div id='card509' class='panel panel-Cool' style='display:none;'>
+                            <div class='panel-body'>
+                                <a>
+                                    <img src="{{ base_url() }}/public/images/509.png" alt="Example" width='100%' />
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="facet">  
+                        <div id='card512' class='panel panel-Pure' style='display:none;'>
+                            <div class='panel-body'>
+                                <a>
+                                    <img src="{{ base_url() }}/public/images/500.png" alt="Example" width='100%' />
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="facet">  
+                        <div id='card201' class='panel panel-Cool' style='display:none;'>
+                            <div class='panel-body'>
+                                <a>
+                                    <img src="{{ base_url() }}/public/images/201.png" alt="Example" width='100%' />
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div style='margin-top:420px;'>                    
+            <h2> ANIMATE </h2>     
+            <div>
+                {% set i = 0 %}
+                {% for item in animates %}
+                    {% if i == 10 %}
+                        {% set i = 0 %}
+                        <br />
+                    {% else %}   
+                        {%  set i = i + 1  %}
+                    {% endif %}    
+                    <a class='ani btn btn-sm btn-info'>{{ item }}</a>
+                {% endfor %}      
+            </div>
+            <h2> MAGIC </h2>
+            <div>
+                {% set i = 0 %}
+                {% for item in magics %}
+                    {% if item == '--' %}
+                        {% set i = 0 %}
+                        <br />
+                    {% else %}   
+                        <a class='magic btn btn-sm btn-default'>{{ item }}</a>
+                    {% endif %}    
+
+                {% endfor %}      
+            </div>
+        </div>
+    </body>
+
+
+    <script>
+        var currentCard = $('#card499');
+        var collect = $('div[id^=card]');
+        var time = 350;
+        $(document).ready(function () {
+            $.each(collect, function (index, item) {
+                setTimeout(function () {
+                    $(item).show();
+                    $(item).magicCss('bounceInDown');
+                }, time)
+                time += 350;
+
+            });
+
+            //bounceInDown
+        });
+
+        $('div[id^=card]').click(function () {
+            currentCard.find('div').css('background','#fff');
+            
+            $(this).find('div').css('background', $(this).css("border-color"));
+               currentCard = $(this);
+            $(this).magicCss('puffIn');
+           
+        });
+        $('.ani').on('click', function () {
+            currentCard.animateCss($(this).text());
+        });
+
+        $('.magic').on('click', function () {
+            currentCard.magicCss($(this).text());
+        });
+
+
+        $(function () {
+            $("#allFacets").sortable({
+                connectWith: "ul",
+                placeholder: "placeholder",
+                delay: 150,
+                drag: function () {
+                    return false;
+                }
+            })
+           .disableSelection()
+                   
+        });
+
+    </script>
+</html>
